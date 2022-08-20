@@ -35,6 +35,7 @@
     <main>
       <section id="about">
         <h2>About</h2>
+        <div class="row">
         <div class="section__description">
           <div class="section__description--wrapper">
           <p class="section__description--para">
@@ -54,9 +55,11 @@
           <img src="./assets/about.jpg" alt="" />
         </figure>
         </div>
+      </div>
       </section>
       <section id="discord">
         <h2>Discord</h2>
+        <div class="row">
         <div class="section__description">
         <figure class="about__img--wrapper">
           <img src="./assets/discord.png" alt="Discord" />
@@ -76,24 +79,27 @@
           </p>
         </div>
       </div>
+    </div>
       </section>
       <section id="contact">
         <h2>Contact</h2>
         <form action="">
-          <label for="Email"></label>
-          <input type="text" placeholder="jane@example.com">
-          <label for="Message"></label>
-          <textarea type="text" placeholder="jane@example.com"></textarea>
+          <label for="Email">Email</label>
+          <input type="email" placeholder="jane@example.com">
+          <label for="Message">Message</label>
+          <textarea type="text" placeholder="Tell us what you think"></textarea>
+          <button>Contact Us!</button>
         </form>
       </section>
     </main>
+
     <footer>
-<img src="./assets/FES.svg" alt="">
-<div>
-  <a href="#about">About</a>
-  <a href="#discord">Discord</a>
-  <a href="#contact">Contact</a>
-  <a href="">Courses</a>
+<img class="footer__logo" src="./assets/FES.svg" alt="">
+<div class="footer__links">
+  <a class="footer___link" href="#about">About</a>
+  <a class="footer___link" href="#discord">Discord</a>
+  <a class="footer___link" href="#contact">Contact</a>
+  <a class="footer___link" href="">Courses</a>
 </div>
 <p>Copyright Frontend Simplified</p>
     </footer>
