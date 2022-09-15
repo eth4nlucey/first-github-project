@@ -16,22 +16,24 @@
       <nav>
         <div class="personal__logo">Ethan Lucey</div>
         <ul class="nav__link--list">
-          <li>
+          <li class="nav__link">
             <a
-              href=""
-              class="nav__link--anchor link__hover-effect linked__hover-effect--black"
+              href="#languages"
+              class="nav__link--anchor link__hover-effect link__hover-effect--black"
               >Languages</a
             >
           </li>
-          <li>
+          <li class="nav__link">
             <a
-              href=""
-              class="nav__link--anchor link__hover-effect linked__hover-effect--black"
-              >Project</a
+              href="#projects"
+              class="nav__link--anchor link__hover-effect link__hover-effect--black"
+              >Projects</a
             >
           </li>
-          <li>
-            <a href="" class="nav__link--anchor nav__link--anchor-primary"
+          <li class="nav__link">
+            <a
+              href="mailto:elucey27@gmail.com"
+              class="nav__link--anchor nav__link--anchor-primary"
               >Contact</a
             >
           </li>
@@ -48,14 +50,18 @@
               />
             </figure>
             <h1 class="about-me__info--title">
-              Hey! I'm <span class="text--purple">Ethan Lucey</span> 👋
+              Hey! I'm <span class="text--purple">Ethan Lucey</span>&nbsp;<span
+                class="wave"
+                >👋</span
+              >
             </h1>
             <p class="about-me__info--para">
-              I'm a former journalist turned
-              <strong class="text--purple">frontend software engineer</strong>
-              with a strong passion for building responsive and performant web
-              applications with great user experiences that positively impact
-              the world.
+              I'm a full-time madhead learning how to
+              <strong class="text--purple">write silly code.
+              </strong>
+              I like programming because it launches me even deeper into the 
+              over-achiever club and it allows me to brag about even more 
+              at the Corner House.
             </p>
             <div class="about-me__links">
               <a href="" class="about-me__link">
@@ -67,7 +73,11 @@
               <a href="" class="about-me__link">
                 <i class="far fa-envelope"></i>
               </a>
-              <a href="" class="about-me__link">
+              <a
+                href="./assets/Example Resume.pdf"
+                target="_blank"
+                class="about-me__link"
+              >
                 <i class="fas fa-file-pdf"></i>
               </a>
             </div>
@@ -143,11 +153,12 @@
             <li class="project">
               <div class="project__wrapper">
                 <img
-                  src="./assets/loopit.png"
+                  src="./assets/sky.png"
                   class="project__img"
-                  alt="Car subscription project"/>
+                  alt="Car subscription project"
+                />
                 <div class="project__description">
-                  <h3 class="project__description--title">Car sales project</h3>
+                  <h3 class="project__description--title">Sky News</h3>
                   <h4 class="project__description--sub-title">
                     Html, CSS, JavaScript, React
                   </h4>
@@ -178,11 +189,12 @@
             <li class="project">
               <div class="project__wrapper">
                 <img
-                  src="./assets/loopit.png"
+                  src="./assets/bbc.png"
                   class="project__img"
-                  alt="Car subscription project"/>
+                  alt="Car subscription project"
+                />
                 <div class="project__description">
-                  <h3 class="project__description--title">Car sales project</h3>
+                  <h3 class="project__description--title">BBC News</h3>
                   <h4 class="project__description--sub-title">
                     Html, CSS, JavaScript, React
                   </h4>
@@ -213,11 +225,12 @@
             <li class="project">
               <div class="project__wrapper">
                 <img
-                  src="./assets/loopit.png"
+                  src="./assets/itv.png"
                   class="project__img"
-                  alt="Car subscription project"/>
+                  alt="Car subscription project"
+                />
                 <div class="project__description">
-                  <h3 class="project__description--title">Car sales project</h3>
+                  <h3 class="project__description--title">ITV News</h3>
                   <h4 class="project__description--sub-title">
                     Html, CSS, JavaScript, React
                   </h4>
@@ -249,5 +262,49 @@
         </div>
       </div>
     </section>
+    <footer>
+      <div class="row footer__row">
+        <a href="#" class="footer__anchor">
+          <figure class="footer__logo">
+            <img src="./assets/logo.svg" class="footer___logo--img" alt="" />
+          </figure>
+          <span class="footer__logo--popper">
+            Top
+            <i class="fas fa-arrow-up"></i>
+          </span>
+        </a>
+        <div class="footer__social--list">
+          <a
+            href="https://google.com"
+            target="_blank"
+            class="footer__social--link link__hover-effect link__hover-effect--white"
+            target="_blank"
+            >Github</a
+          >
+          <a
+            href="https://google.com"
+            target="_blank"
+            class="footer__social--link link__hover-effect link__hover-effect--white"
+            target="_blank"
+            >LinkedIn</a
+          >
+          <a
+            href="mailto:elucey27@gmail.com"
+            target="_blank"
+            class="footer__social--link link__hover-effect link__hover-effect--white"
+            target="_blank"
+            >Email</a
+          >
+          <a
+            href="./assets/Example Resume.pdf"
+            target="_blank"
+            class="footer__social--link link__hover-effect link__hover-effect--white"
+            target="_blank"
+            >Resume</a
+          >
+        </div>
+        <div class="footer__copyright">Copyright © 2021 Ethan Lucey</div>
+      </div>
+    </footer>
   </body>
 </html>
